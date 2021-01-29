@@ -10,7 +10,7 @@ public interface BeerService {
 
     BeerDto saveNewBeer(BeerDto beerDto);
 
-    BeerDto updateBeer(BeerDto beerDto);
+    BeerDto updateBeer(UUID id, BeerDto beerDto);
 
-    void deleteById(UUID beerId);
+    void deleteById(UUID id);
 }

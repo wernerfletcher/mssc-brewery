@@ -29,13 +29,13 @@ public class BeerServiceImpl implements BeerService {
     }
 
     @Override
-    public BeerDto updateBeer(BeerDto beerDto) {
+    public BeerDto updateBeer(UUID id, BeerDto beerDto) {
         //todo: implement update method
         return beerDto;
     }
 
     @Override
-    public void deleteById(UUID beerId) {
+    public void deleteById(UUID id) {
         //todo: implement delete method
     }
 
