@@ -28,4 +28,15 @@ public class BeerServiceImpl implements BeerService {
                 .build();
     }
 
+    @Override
+    public BeerDto updateBeer(BeerDto beerDto) {
+        //todo: implement update method
+        return beerDto;
+    }
+
+    @Override
+    public void deleteById(UUID beerId) {
+        //todo: implement delete method
+    }
+
 }
